@@ -1,0 +1,15 @@
+/* main Body Design */
+body{
+    background-color: #313131;
+}
+/* Navbar Designs */
+.navbar{
+    background-color:#ca3e47;
+    
+}
+.navbar .navbar-brand{
+    color: #BFBFBF;
+}
+.navbar .navbar-toggler{
+    color:#BFBFBF;
+}
