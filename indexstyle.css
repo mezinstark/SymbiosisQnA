@@ -2,14 +2,37 @@
 body{
     background-color: #313131;
 }
-/* Navbar Designs */
-.navbar{
-    background-color:#ca3e47;
-    
-}
-.navbar .navbar-brand{
+nav a{
+    text-decoration: none;
     color: #BFBFBF;
 }
-.navbar .navbar-toggler{
-    color:#BFBFBF;
+nav a:hover{
+    color:#8c8a8a;
+    
+}
+/* Navbar Designs */
+nav{
+    /* margin: 15px 5px;
+    background-color: #ca3e47; */
+    margin: 5px 20px;
+    background-color: #ca3e47;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    color: #BFBFBF;
+    font-family: 'Noto sans JP', sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    text-decoration-line: none;
+
+}
+#nav-mid{
+    flex:1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul,li{
+display: inline;
 }
