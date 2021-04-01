@@ -2,6 +2,7 @@
 body{
     background-color: #313131;
 }
+/*Nav Link Designs*/
 nav a{
     text-decoration: none;
     color: #BFBFBF;
@@ -35,4 +36,45 @@ nav{
 }
 ul,li{
 display: inline;
+}
+
+/* Search Bar Designs */
+#search-bar{
+    display: flex;
+    justify-content: center;
+
+}
+#search-input{
+    background-color:#313131;
+    border: 2px solid #ca3e47;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 0.5%;
+}
+#search-btn{
+    background-color: #ca3e47;
+    color:#BFBFBF;
+    border:1px solid #BFBFBF;
+    border-radius: 5px;
+}
+
+/* Main Body Design-Creating a Flex Box */
+#body-main{
+    display: flex;
+
+}
+
+/* Center body Design */
+#centerBody{
+    border: 2px solid brown;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    margin:5px 5px;
+}
+
+/* Right Side Body design */
+#rightBody{
+    border: 2px solid brown;
+    display: flex;
 }
